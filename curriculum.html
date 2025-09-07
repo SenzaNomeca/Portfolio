@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>   
+    <title>Portafolio-Roberto</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <!--script js-->
+    <script src="assets/js/menu.js" defer></script>    
+
+</head>
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra lateral (info del usuario)-->
+        <aside class="layout__aside">
+            
+            <section class="aside__user-info">
+
+                <!--Informacion general del usuario-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/yo.PNG" class="user-info__image" alt="Foto de Elvis como perfil de usuario">
+                        <!--aqui la sombra-->
+                    </div>
+                    <h2 class="user-info__name">Roberto Rodríguez</h2>
+                    <h4 class="user-info__job">Desarrollador WEB</h4>
+                </div>
+
+                <!--Menu Navegacion-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>                                
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>                                
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>                                
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>                                
+                            </a>
+                        </li>
+
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>                                
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--Links redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/roberto-rodríguez-rrb" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/SenzaNomeca" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://steamcommunity.com/profiles/76561198980471076" class="social__link">
+                                <i class="social__icon fa-brands fa-steam"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Boton de curriculum-->
+                <div class="user-info__buttons">
+                    <a target="_blank" href="assets/documents/Roberto Rodríguez CV.pdf" class="user-info__btn">Descargar CV</a>
+                </div>
+
+
+                <!--footer pie de pagina-->
+                <footer class="user-info__footer">
+                    &copy; 2024 Roberto Rodriguez web
+                </footer>
+
+
+            </section>
+
+        </aside>
+        
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="toggle__icon fa-solid fa-bars"></i>
+            <i class="toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+            <section class="content__page content__resume">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SIITO WEB-->
+
+                <header class="resume__header">
+                    <h1 class="resume__title">Curriculum</h1>
+                </header>
+
+                <div class="resume__container">
+                    <section class="resume__left">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Formacion</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2024 - 2025</h4>
+                                    <span class="timeline__company">Alura - Oracle</span>
+                                </header>
+
+                                <!--LINEA DIVISORIA-->
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollador Backend</h3>
+                                    <p class="timeline__text">
+                                        Apliando conocimientos Backend con Java y SpringBoot
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline__company">Corporacion Universitaria Americana</span>
+                                </header>
+
+                                <!--LINEA DIVISORIA-->
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo web</h3>
+                                    <p class="timeline__text">
+                                        Primeros pasos en el desarrollo de aplicativos web
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline__company">Corporacion Universitaria Americana</span>
+                                </header>
+
+                                <!--LINEA DIVISORIA-->
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Bases de datos</h3>
+                                    <p class="timeline__text">
+                                        Diseño, creacion y mantenimiento de bases de datos relacionales.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2022 - Actualidad</h4>
+                                    <span class="timeline__company">Corporacion Universitaria Americana</span>
+                                </header>
+
+                                <!--LINEA DIVISORIA-->
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Ingeniero de sistemas</h3>
+                                    <p class="timeline__text">
+                                        Estudiante de ingeniería de sistema septimo semestre.
+                                    </p>
+                                </div>
+                            </article>
+
+                            
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Experiencia</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2024 - 2025</h4>
+                                    <span class="timeline__company">Proyectos propios</span>
+                                </header>
+
+                                <!--LINEA DIVISORIA-->
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollador de aplicaciones web</h3>
+                                    <p class="timeline__text">
+                                        Para continuar el aprendizaje he ido creando proyectos propios y profundizando el conocimiento en varias áreas.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023 - 2024</h4>
+                                    <span class="timeline__company">Tic Ltda</span>
+                                </header>
+
+                                <!--LINEA DIVISORIA-->
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollador de aplicaciones web</h3>
+                                    <p class="timeline__text">
+                                        Desarollé junto a un equipo, landing pages en WordPress y aplicativos web con Laravel-PHP
+                                    </p>
+                                </div>
+                            </article>
+                            
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Areas de conocimiento</h2>
+                        </header>
+
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledge__option">Programacion</li>
+                                <li class="knowledge__option">Desarrollo Backend </li>
+                                <li class="knowledge__option">Redes sociales</li>
+                                <li class="knowledge__option">Formacion</li>
+                                <li class="knowledge__option">Diseño web</li>
+                                <li class="knowledge__option">Redes sociales</li>
+                                <li class="knowledge__option">Aplicaciones moviles</li>
+                            </ul>
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Plugins Importantes</h2>
+                        </header>
+                        
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledge__option">Estructuras de datos</li>
+                                <li class="knowledge__option">Bases de Inteligencia Artificial</li>
+                                <li class="knowledge__option">Programacion Competitiva</li>
+                                <li class="knowledge__option">Patrones de diseño arquitentonicos</li>
+                                <li class="knowledge__option">MVC</li>
+                                <li class="knowledge__option">Principios SOLID</li>
+                                <li class="knowledge__option">API REST</li>
+                                <li class="knowledge__option">Unit Test</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="resume__right">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">diseño</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño web</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño de Mockups</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño de Logos</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño de banners</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">codigo</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">C++</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">HTML/CSS</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">JavaScript</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">PHP</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Laravel</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Java</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">SpringBoot</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Mysql</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">MVC</h4>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage"> </div>
+                            </div>
+
+                        </div>
+
+
+                    </section>
+                </div>
+
+                <div class="resume__certificates">
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtitle">Certificados</h2>
+                    </header>
+
+                    <section class="certificates__container">
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <a href="https://app.aluracursos.com/degree/certificate/9595cc9a-ccf0-469d-9ac2-92bebd5d5e1d?lang">
+                                    <img src="assets/img/ONE-logo.png" class="certificate__image">
+                                </a>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Formación Java y Spring Framework G7 - ONE</h4>
+                                <span class="certificate__id"></span>
+                                <span class="certificate__date">17 Noviembre 2024</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <a href="https://app.aluracursos.com/program/certificate/d30fdacf-3044-4c67-8422-5e0f50c0eb0b?lang">
+                                    <img src="assets/img/ONE-logo.png" class="certificate__image">
+                                </a>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Programa Oracle Next Education F2 T7 Back-end</h4>
+                                <span class="certificate__id"></span>
+                                <span class="certificate__date">21 Enero 2025</span>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                
+                
+
+            </section>
+        </main>
+    </div>
+</body>
+</html>

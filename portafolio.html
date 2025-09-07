@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>    
+    <title>Portafolio-Roberto</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+
+    
+    <!--script js-->
+    <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/porfolio.js" defer></script>
+    
+
+</head>
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra lateral (info del usuario)-->
+        <aside class="layout__aside">
+            
+            <section class="aside__user-info">
+
+                <!--Informacion general del usuario-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/yo.PNG" class="user-info__image" alt="Foto de Elvis como perfil de usuario">
+                        <!--aqui la sombra-->
+                    </div>
+                    <h2 class="user-info__name">Roberto Rodríguez</h2>
+                    <h4 class="user-info__job">Desarrollador WEB</h4>
+                </div>
+
+                <!--Menu Navegacion-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>                                
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link ">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>                                
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link ">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>                                
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">portafolio</span>                                
+                            </a>
+                        </li>
+
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>                                
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--Links redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/roberto-rodríguez-rrb" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/SenzaNomeca" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://steamcommunity.com/profiles/76561198980471076" class="social__link">
+                                <i class="social__icon fa-brands fa-steam"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Boton de curriculum-->
+                <div class="user-info__buttons">
+                    <a href="assets/documents/Roberto Rodríguez CV.pdf" class="user-info__btn">Descargar CV</a>
+                </div>
+
+
+                <!--footer pie de pagina-->
+                <footer class="user-info__footer">
+                    &copy; 2024 Roberto Rodriguez web
+                </footer>
+
+
+            </section>
+
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="toggle__icon fa-solid fa-bars"></i>
+            <i class="toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+            <section class="content__page content__portfolio">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SIITO WEB-->
+                <header class="portfolio__header">
+                    <h1 class="portfolio__title">Portafolio</h1>
+                </header>
+
+                <!-- <nav class="portfolio__navbar">
+                    <ul class="portfolio__menu">
+                        <li class="portfolio__option portfolio__option--active">
+                            <a href="#" class="portfolio__link">Todo</a>
+                        </li>
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">Cursos</a>
+                        </li>
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">Redes sociales</a>
+                        </li>
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">Videos</a>
+                        </li>
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">Proyectos</a>
+                        </li>
+                    </ul>
+
+                </nav> -->
+
+                <section class="portfolio__gallery" id="portfolioGallery">
+                    
+                </section>
+
+                <!-- Loader -->
+                <div class="portfolio__loader" id="portfolioLoader">
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+                    <span>Cargando proyectos...</span>
+                </div>
+
+            </section>
+        </main>
+    </div>
+</body>
+</html>
